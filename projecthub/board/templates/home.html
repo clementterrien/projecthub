@@ -1,0 +1,15 @@
+{% extends "base/base.html" %}
+
+{% block body %}
+Hello World
+user is {% if authenticated %} connected {% else %} not connected {% endif %}
+
+{% if authenticated %}
+<form method="post" action="{% url 'user_logout' %}">
+    {% csrf_token %}
+    <button type="submit">Logout</button>
+</form>
+{% endif %}
+
+
+{% endblock body %}
