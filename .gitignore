@@ -1,5 +1,6 @@
 #Caches
 __pycache__
+*.pyc
 
 # IDE & Linters
 .vscode
@@ -7,5 +8,12 @@ __pycache__
 
 # Virtual Environments
 **/venv*/
+
+
+# Database migrations
+*/migrations/*
+
+# SQLite database
+db.sqlite3
 
 
