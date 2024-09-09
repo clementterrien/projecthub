@@ -1,7 +1,11 @@
+#Caches
+__pycache__
+
 # IDE & Linters
 .vscode
 .flake8
 
 # Virtual Environments
 **/venv*/
+
 
