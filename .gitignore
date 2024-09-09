@@ -1,2 +1,7 @@
+# IDE & Linters
+.vscode
+.flake8
+
 # Virtual Environments
 **/venv*/
+
