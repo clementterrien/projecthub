@@ -14,6 +14,13 @@
 ### Install Dependencies
     pip install -r requirements.txt
 
+### Create the db
+    python manage.py makemigrations
+    python manage.py migrate
+
+### Create the super User
+    python manage.py createsuperuser
+
 ### Use flake8
 
     pip install flake8
