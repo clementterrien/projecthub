@@ -9,9 +9,8 @@ __pycache__
 # Virtual Environments
 **/venv*/
 
-
 # Database migrations
-*/migrations/*
+**/migrations/*
 
 # SQLite database
 db.sqlite3
