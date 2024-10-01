@@ -15,4 +15,5 @@ __pycache__
 # SQLite database
 db.sqlite3
 
-
+# Notes and Reminders
+notes.txt
