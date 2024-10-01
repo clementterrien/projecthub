@@ -21,6 +21,9 @@
 ### Create the super User
     python manage.py createsuperuser
 
+### Run the development Server
+    python manage.py runserver
+
 ### Use flake8
 
     pip install flake8
