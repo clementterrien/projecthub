@@ -9,6 +9,10 @@ __pycache__
 # Virtual Environments
 **/venv*/
 
+#Env file
+.env
+.env.test
+
 # Database migrations
 **/migrations/*
 
