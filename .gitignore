@@ -9,11 +9,15 @@ __pycache__
 # Virtual Environments
 **/venv*/
 
+#Env file
+.env
+.env.test
 
 # Database migrations
-*/migrations/*
+**/migrations/*
 
 # SQLite database
 db.sqlite3
 
-
+# Notes and Reminders
+notes.txt
