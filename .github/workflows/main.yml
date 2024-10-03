@@ -33,4 +33,4 @@ jobs:
 
     - name: Execute Django Tests
       run: |
-        python projecthub/manage.py test
+        python projecthub/manage.py test projecthub --parallel

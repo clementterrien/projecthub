@@ -39,3 +39,13 @@ max-doc-length = 170
 extend-exclude= venv/
 ~~~
 *This is what I have in my .flake8 file. This file is gitignored.*
+
+## Testing
+
+### Test the projecthub application
+
+#### From the project directory
+    python projecthub/manage.py test projecthub
+
+See the documentation here for more information:
+https://docs.djangoproject.com/en/5.1/topics/testing/overview/#running-tests
